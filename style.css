@@ -1,0 +1,134 @@
+html {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+header {
+    box-sizing: border-box;
+    height: 69px;
+    position: top;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+}
+.logo {
+    display: flex;
+    float: left;
+    height: 50px;
+    padding-left: 10px;
+    flex-shrink: 2;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    float: right;
+    text-decoration: underline;
+    color: seashell;
+}
+.nav {
+    display: inline-flex;
+    text-align: left;
+    padding-right: 15px;
+    flex-shrink: 1;
+}
+a:link {
+    color: seashell;
+}
+a:visited {
+    color: seashell;
+}
+.mission {
+    background-image: url('https://raw.githubusercontent.com/melodyide/Tea-Cozy-Challenge/main/img-mission-background.webp');
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    opacity: 1;
+}
+#mission {
+    position: absolute;
+    width: 1200px;
+    top: 300px;
+    padding: 10px 0px;
+    background-color: black;
+    line-height: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+}
+.totm {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.images{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 10px;
+}
+img {
+    max-height: 200px;
+    max-width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 auto;
+}
+.bg-img {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*kd27ui*_ga*NjE1MDAyOTM1NS4xNjg1NzU3MjAy*_ga_3LRZM6TM9L*MTcwODkxMDM5OS4xNDEuMS4xNzA4OTEyMjU4LjU3LjAuMA..');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: none;
+    height: 500px;
+    width: 1200px;
+    max-width: 1200px;
+    max-height: 500px;
+    position: relative;
+    margin: 25px auto;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+.location {
+    background-color: transparent;
+    margin-bottom: 15px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.locations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    flex-shrink: 1;
+}
+.loc {
+    width: 300px;
+    height: 300px;
+    margin: 0px 40px;
+    background-color: black;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    flex-shrink: 1;
+    opacity: 0.8;
+}
+footer {
+    height: 200px;
+}
+.copyright {
+    float: left;
+    margin-left: 20px;
+}
